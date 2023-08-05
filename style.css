@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html,body{
+    height:100%;
+    width:100%;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-image: url('https://images.unsplash.com/photo-1613339027986-b94d85708995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmF0dXJlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60'); */
+    background-repeat: no-repeat;
+    background-color: darkmagenta;
+}
+
+.button{
+    width: 66px;
+    padding:20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    color: white;
+}
+.button:hover{
+    background-color:#483D8B;
+}
+.button:active {
+   background-color: darkslateblue;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 235px;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.color{
+    background-color:#FFA07A ;
+}
+.color1{
+    background-color:#7B68EE;
+}
+
+@media (max-width:556px){
+    .row input {
+        width: 160px;
+    }
+    .button {
+        width: 50px;
+    }
+  }
